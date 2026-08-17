@@ -21,6 +21,22 @@ points between tools, so the skill treats any single score as one data point, ne
 
 Works in English and Russian. Both versions included.
 
+## Target practice
+
+Want to watch most of the checklist fire on one page? Generate a post at
+[cringebot3000.com](https://www.cringebot3000.com/) (a parody LinkedIn-post generator,
+deliberately awful by design) and feed it to the skill.
+
+When I ran this on 2026-08-17, three CringeBot posts tripped 8-9 rules each, including a
+cross-post pattern no single-text score can surface: every post had a quirky-named side
+character, grandmother wisdom appeared in two of three, and the number 94% showed up twice
+in unrelated stories.
+
+The same three posts, sent to three general models with "AI-likelihood %?" as the question,
+came back as 95/85/90 from ChatGPT, 80/75/85 from Grok, and 15/25/65 from Gemini, which
+praised the first post's "authentic voice". All three texts were machine-generated. That
+spread is the reason this skill reports patterns with line numbers instead of a percentage.
+
 ## Install
 
 Copy the folder for your language into `~/.claude/skills/`:
