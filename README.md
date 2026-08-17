@@ -3,7 +3,7 @@
 A Claude skill that audits a finished draft for the patterns that make text read as
 AI-generated, and flags each one with the line it's on and a suggested fix.
 
-21 checks, including:
+24 checks, including:
 
 - rhetorical symmetry ("it's not X, it's Y", triads, mirrored sentence pairs)
 - filler transitions and hedges ("in today's world", "let's be honest")

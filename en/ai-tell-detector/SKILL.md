@@ -23,7 +23,10 @@ final text, not a topic.
 3. **Uniform rhythm and structure.** If every sentence is roughly the same length and
    every paragraph the same shape, call it out. Also check the beat-by-beat shape of
    the whole piece: situation → contrast → lesson → plug → question is a template, not
-   a style — flag it even if no single sentence is the problem.
+   a style — flag it even if no single sentence is the problem. Concrete variance check:
+   real human prose mixes a long run-on sentence full of asides with a fragment right
+   after it; paragraphs of 2-4 sentences of near-identical length, kept up through the
+   whole piece, are a flag on their own.
 4. **Generic abstraction over specifics.** Claims with no number, name, date, or quote
    behind them ("many companies struggle with...", "in my experience..." with nothing
    concrete after it).
@@ -43,6 +46,8 @@ final text, not a topic.
    a takeaway or moral — "X did more work than Y ever did," "it always comes down to
    Z" — even without the "not X — it's Y" framing already covered by rule 1. If a
    sentence could be pulled out and used as a motivational-poster caption, flag it.
+   This applies mid-text too, not only at the close: a universal one-liner dropped
+   inside an explanatory paragraph is the same tell in a quieter spot.
 10. **Over-resolved full arc.** The whole piece maps cleanly onto problem → numbers →
     cause → pattern list → fix → product plug → question, with every beat closed and
     nothing left loose — even if no single sentence trips rules 1-9. This is one of the
@@ -50,7 +55,10 @@ final text, not a topic.
     post usually leaves at least one thread hanging. Concrete check: label each paragraph
     with the one job it does (setup, analysis, experiment, result, context, question) —
     if every paragraph does exactly one distinct job with no overlap or mess, that clean
-    division is the tell, independent of any single sentence.
+    division is the tell, independent of any single sentence. Conceptual density is the
+    same signal at another zoom: when every paragraph introduces exactly one new concept
+    and the argument only ever advances, nothing revisited, nothing abandoned, the piece
+    reads as a generated taxonomy even if every beat looks fine alone.
 11. **Asyndetic 3-4 item descriptor lists.** Any run of three or four abstract nouns or
     descriptors strung together with commas and no connective tissue ("rhetorical
     contrasts, symmetrical triads, invented anecdotes, filler that says nothing") is a
@@ -104,6 +112,22 @@ final text, not a topic.
     statement, a trailing aside, sometimes nothing. Don't treat a closing question as
     required — flag a draft when the ending feels obligatory rather than earned, and
     prefer no explicit question over a forced one.
+22. **Term-definition block run.** Three or more same-shaped blocks of "**Term.**
+    Definition, example, consequence." in a row read as a generated classification, even
+    when each block is clean on its own — readers and classifiers both parse the run as
+    a taxonomy, not prose. Two external models independently flagged exactly this on a
+    draft that had passed rules 1-21 (2026-08-16). Break the shapes: fold one term into
+    running prose, give one block a different length or entry point, drop the bold on one.
+23. **Dismissal pivot.** A punchy short sentence dismissing one thing, then an immediate
+    pivot to the real thesis ("So the scores are noise. What isn't noise: ...") is rule
+    1's contrast stretched over two sentences and sharpened into a hook — textbook
+    social-copy shape (observation → fragment → contrast → thesis). Flag it even when
+    each sentence is fine alone.
+24. **Dutiful caveat block.** A tidy limitations paragraph slotted right before the
+    ending ("One caveat: ...") is itself a template beat: models and content marketers
+    both learned to perform honesty as a closing move. If the caveat matters, put it
+    where it becomes relevant and let it be ragged; a caveat that reads like a checklist
+    item is part of the arc rule 10 catches.
 
 ## Output
 
