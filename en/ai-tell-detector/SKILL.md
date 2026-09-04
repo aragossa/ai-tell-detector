@@ -131,9 +131,39 @@ final text, not a topic.
 
 ## Output
 
-A table: line/phrase → what it triggers → suggested fix. Then one line: pass / needs
-revision, with the count of flags found. Never rewrite the whole text unless asked —
-just point at what to cut or change.
+A table: line/phrase → what it triggers → suggested fix. The table must check the draft
+against **every numbered rule above, in order** — including a line for a rule that found
+nothing ("11. none found") — not just the rules that happen to jump out on a first read.
+A confirmed real-world failure (2026-09-04): a Reddit comment shipped with three tells —
+rules 9, 11, and 23 — that were each already explicitly covered by this checklist; the
+miss wasn't a gap in the rules, it was skipping straight to a holistic "does this feel
+fine" read instead of walking the list. Then one line: pass / needs revision, with the
+count of flags found. Never rewrite the whole text unless asked — just point at what to
+cut or change.
+
+## Running this on your own writing (self-audit warning)
+
+This skill is frequently invoked by the same model, in the same context, that just wrote
+or edited the draft — a drafting pass followed immediately by "now audit it" in one
+continuous conversation. That setup is weaker than an independent read: having just edited
+toward "this sounds right," the same context is primed to confirm its own fix rather than
+re-examine adversarially, and it tends to only catch whatever tell is already salient from
+surrounding instructions (a fabricated-experience rule repeated elsewhere in a project's own
+guidance, say) while missing structural ones that only surface on a mechanical, rule-by-rule
+pass (a mic-drop closer, a contrast stretched across two sentences, an exact item count).
+
+When running this checklist against your own prior output in the same session:
+
+- Always audit the **final** text after any prior editing pass, not the pre-edit draft —
+  a fix that was "applied" in an earlier step is unverified until the resulting text is
+  itself checked against all 24 rules.
+- Produce the full per-rule table (see Output above) rather than a summary of what you
+  remember already fixing — a remembered fix is not the same as a re-verified one.
+- When the environment can spawn an independent subagent that receives only the checklist
+  and the draft text (not the conversation that produced it, not a claim that it was
+  already cleaned up), prefer that over grading the text in the same context that wrote
+  it. This removes the confirmation-bias failure mode structurally instead of relying on
+  the same context to somehow be more skeptical of itself.
 
 ## Hard rules
 
